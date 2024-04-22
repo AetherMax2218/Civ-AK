@@ -30,7 +30,7 @@
 		"outerColor": [16,16,16],
 		"innerColor": [230,230,230],
 		"uniqueName": "March On!",
-		"uniques": ["Damage is ignored when determining unit Strength <for [non-[Air]] units>"],
+		"uniques": ["Damage is ignored when determining unit Strength <for [non-[Air]] units>","[-25]% maintenance costs <for [Land] units>"],
 		"cities": ["Londinium","County Hillock","Tradersmill","Calais-Blason","Caladon","Lyndon","County Toron","County Ascarat","County Connor","Portsmouth","County Castshire",
 			"County York","County Skyes","County Rivermouth","County Trent","County Peninsula","County Oak Grove"]
 	}
