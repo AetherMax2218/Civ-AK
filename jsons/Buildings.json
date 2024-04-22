@@ -22,7 +22,8 @@
 	},
 	{
 		"name": "Palace of Westhaleg",
-		"replaces": "Himeji Castle",
+		"replaces": "Alhambra",
+		"uniqueTo": "Victoria",
 		"culture": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
