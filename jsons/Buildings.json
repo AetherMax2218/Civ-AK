@@ -1,12 +1,23 @@
 [
 	{
+		"name": "Walls of Victoria",
+		"replaces": "Walls",
+		"cost": 70,
+		"uniqueTo": "Victoria",
+		"cityStrength": 6,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured", "All newly-trained [non-[Air]] units [in this city] receive the [March] promotion"]
+	},
+	{
 		"name": "Victorian Royal Guard Academy",
 		"replaces": "Military Academy",
 		"uniqueTo": "Victoria",
 		"hurryCostModifier": 0,
 		"maintenance": 2,
 		"requiredBuilding": "Armory",
-		"uniques": ["New [Military] units start with [30] Experience [in this city]",  "All newly-trained [non-[Air]] units [in this city] receive the [March] promotion", "Destroyed when the city is captured"],
+		"uniques": ["New [Military] units start with [30] Experience [in this city]",  "All newly-trained [non-[Air]] units [in this city] receive the [Blitz] promotion", "Destroyed when the city is captured"],
 		"requiredTech": "Military Science"
 	},
 	{
@@ -22,9 +33,9 @@
 	},
 	{
 		"name": "Palace of Westhaleg",
-		"replaces": "Alhambra",
+		"replaces": "Himeji Castle",
 		"uniqueTo": "Victoria",
-		"culture": 5,
+		"culture": 4,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
