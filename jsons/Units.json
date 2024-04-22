@@ -1,15 +1,29 @@
 [
 	{
-		"name": "Rpaid Fire Crossbowmen",
-		"unitType": "Gunpowder",
+		"name": "Rpaid Fire Crossbowman",
+		"unitType": "Archery",
 		"replaces": "Musketman",
 		"uniqueTo": "Victoria",
 		"movement": 2,
 		"strength": 20,
 		"cost": 120,
 		"requiredTech": "Gunpowder",
-		"upgradesTo": "Automatic Crossbowmen",
+		"upgradesTo": "Automatic Crossbowman",
 		"obsoleteTech": "Rifling",
+		"promotions": ["Accuracy I"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Automatic Crossbowman",
+		"unitType": "Archery",
+		"replaces": "Rifleman",
+		"uniqueTo": "Victoria",
+		"movement": 2,
+		"strength": 32,
+		"cost": 200,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
 		"promotions": ["Accuracy I"],
 		"attackSound": "arrow"
 	},
