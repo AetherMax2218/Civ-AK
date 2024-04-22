@@ -1,25 +1,34 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Victorian Royal Guard Academy",
+		"replaces": "Military Academy",
+		"uniqueTo": "Victoria",
+		"hurryCostModifier": 0,
+		"maintenance": 2,
+		"requiredBuilding": "Armory",
+		"uniques": ["New [Military] units start with [30] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Military Science"
 	},
 	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Victorian Institute of Higher Studies",
+		"replaces": "Oxford University",
+		"uniqueTo": "Victoria",
+		"science": 5,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [University] is constructed in all [non-[Puppeted]] cities>", "Free Technology", "Cost increases by [30] per owned city"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Palace of Westhaleg",
+		"replaces": "Himeji Castle",
+		"culture": 5,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
+			"Gain a free [Castle] [in this city]"],
+		"requiredTech": "Gunpowder",
+		"quote": "'Londinium has never fallen even once.'"
 	}
 ]
