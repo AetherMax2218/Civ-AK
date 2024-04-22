@@ -63,7 +63,7 @@
 		"movement": 1,
 		"strength": 3000,
 		"rangedStrength": 3000,
-		"range": 100,
+		"range": 10000,
 		"cost": 1000,
 		"requiredTech": "Advanced Ballistics",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
