@@ -55,5 +55,19 @@
 		"upgradesTo": "Mechanized Infantry",
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "machinegun"
-	}	
+	},
+	{
+		"name": "Londinium Secondary Defense Artillery",
+		"replaces": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 3000,
+		"rangedStrength": 3000,
+		"range": 100,
+		"cost": 1000,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			 "Never appears as a Barbarian unit", "Blast radius [3]"],
+		"attackSound": "artillery"
+	}
 ]
