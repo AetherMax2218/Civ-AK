@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Rpaid Fire Crossbowman",
+		"name": "Rapid Fire Crossbowman",
 		"unitType": "Archery",
 		"replaces": "Musketman",
 		"uniqueTo": "Victoria",
