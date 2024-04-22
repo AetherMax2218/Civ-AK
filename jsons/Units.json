@@ -58,7 +58,7 @@
 	},
 	{
 		"name": "Londinium Secondary Defense Artillery",
-		"replaces": "Nuclear Missile",
+		"replaces": "Guided Missile",
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 3000,
