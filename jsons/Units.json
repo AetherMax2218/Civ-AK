@@ -1,17 +1,45 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
+		"name": "Rpaid Fire Crossbowmen",
+		"unitType": "Gunpowder",
+		"replaces": "Musketman",
+		"uniqueTo": "Victoria",
 		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Automatic Crossbowmen",
+		"obsoleteTech": "Rifling",
+		"promotions": ["Accuracy I"],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Gunslingers",
+		"unitType": "Ranged",
+		"uniqueTo": "Victoria",
+		"replaces": "Gatling Gun",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Marksmen Snipers",
 		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
+		"attackSound": "shot"
+	},
+	{
+		"name": "Marksmen Snipers",
+		"unitType": "Ranged",
+		"uniqueTo": "Victoria",
+		"range": 2,
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 350,
+		"requiredTech": "Ballistics",
+		"upgradesTo": "Mechanized Infantry",
+		"promotions": ["Logistics","Accuracy I"],
+		"attackSound": "machinegun"
+	}	
 ]
