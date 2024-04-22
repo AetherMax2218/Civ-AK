@@ -1,38 +1,38 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
+		"name": "Victoria",
+		"leaderName": "Siege",
+		"adjective": ["Victorian"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Diplomatic",
 		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart1": "Greetings. They call me the Siege. Curious name, but it's got a nice ring to it.",
+		"startIntroPart2": "Let's get straight to business. Don't let me get too bored.",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"declaringWar": "Run while you can. Better to be a coward with a pulse than a martyr with a grave.",
+		"attacked": "Tell me, is this battle inevitable?",
+		"defeated": "For want of a nail... the kingdom was lost.",
+		"introduction": "My rule is the balance your lives hang in.",
 		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"neutralHello": "Oh, it's you.",
+		"neutralLetsHearIt": ["Go on.","What is it?","Speak your mind."],
+		"neutralNo": ["No thank you.","Nah.","That's not possible."],
+		"neutralYes": ["Sure.","Of course, yes.","No problem."],
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		"hateHello": "What a pain.",
+		"hateLetsHearIt": ["Don't waste my time.","Get straight to the point.","Just shoot it."],
+		"hateNo": ["Are you mocking me?","Even beggars plea better.","Get lost."],
+		"hateYes": ["Alright.","Sure.","I'll accept."],
 		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"afterPeace": "Are we done here? A truce? Sure.",
+		"tradeRequest": "What do you think?",
 
 		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
+		"innerColor": [230,230,230],
+		"uniqueName": "March On!",
+		"uniques": ["Damage is ignored when determining unit Strength <for [non-[Air]] units>"],
+		"cities": ["Londinium","County Hillock","Tradersmill","Calais-Blason","Caladon","Lyndon","County Toron","County Ascarat","County Connor","Portsmouth","County Castshire",
+			"County York","County Skyes","County Rivermouth","County Trent","County Peninsula","County Oak Grove"]
 	}
+	
 ]
