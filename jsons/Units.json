@@ -57,17 +57,31 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Londinium Secondary Defense Artillery",
-		"replaces": "Guided Missile",
-		"unitType": "Missile",
+		"name": "Scorching Steam Tank",
+		"unitType": "Armoured",
+		"uniqueTo": "Victoria",
+		"movement": 5,
+		"strength": 150,
+		"cost": 425,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Iron",
+		"uniques": ["Can move after attacking", "Never appears as a Barbarian unit"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Londinium Precision Mobile Defense Artillery",
+		"unitType": "Artillery",
+		"uniqueTo": "Victoria",
 		"movement": 1,
-		"strength": 3000,
-		"rangedStrength": 3000,
-		"range": 10000,
+		"strength": 150,
+		"rangedStrength": 2250,
+		"range": 4,
 		"cost": 1000,
 		"requiredTech": "Advanced Ballistics",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			 "Never appears as a Barbarian unit", "Blast radius [3]"],
+		"requiredResource": "Iron",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>",
+			 "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	}
 ]
