@@ -58,7 +58,7 @@
 	},
 	{
 		"name": "Scorching Steam Tank",
-		"unitType": "Armoured",
+		"unitType": "Armored",
 		"uniqueTo": "Victoria",
 		"movement": 5,
 		"strength": 150,
@@ -70,7 +70,7 @@
 	},
 	{
 		"name": "Londinium Precision Mobile Defense Artillery",
-		"unitType": "Artillery",
+		"unitType": "Siege",
 		"uniqueTo": "Victoria",
 		"movement": 1,
 		"strength": 150,
